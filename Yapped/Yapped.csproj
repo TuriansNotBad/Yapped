@@ -89,6 +89,7 @@
     <Compile Include="ParamWrapper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpEffectDefaults.cs" />
     <Compile Include="Util.cs" />
     <EmbeddedResource Include="FormFind.resx">
       <DependentUpon>FormFind.cs</DependentUpon>
