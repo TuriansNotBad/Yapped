@@ -71,6 +71,7 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.fbdExport = new System.Windows.Forms.FolderBrowserDialog();
+            this.hideDefaultSPEntriesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
             this.splitContainer2.Panel1.SuspendLayout();
@@ -195,7 +196,8 @@
             this.importNamesToolStripMenuItem,
             this.exportNamesToolStripMenuItem,
             this.toolStripSeparator1,
-            this.verifyDeletionsToolStripMenuItem});
+            this.verifyDeletionsToolStripMenuItem,
+            this.hideDefaultSPEntriesToolStripMenuItem});
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
             this.editToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
             this.editToolStripMenuItem.Text = "Edit";
@@ -488,6 +490,18 @@
             this.fbdExport.Description = "Choose the folder to export parambnds to";
             this.fbdExport.RootFolder = System.Environment.SpecialFolder.MyComputer;
             // 
+            // hideDefaultSPEntriesToolStripMenuItem
+            // 
+            this.hideDefaultSPEntriesToolStripMenuItem.Checked = true;
+            this.hideDefaultSPEntriesToolStripMenuItem.CheckOnClick = true;
+            this.hideDefaultSPEntriesToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.hideDefaultSPEntriesToolStripMenuItem.Name = "hideDefaultSPEntriesToolStripMenuItem";
+            this.hideDefaultSPEntriesToolStripMenuItem.Size = new System.Drawing.Size(225, 22);
+            this.hideDefaultSPEntriesToolStripMenuItem.Text = "Hide default SP entries";
+            this.hideDefaultSPEntriesToolStripMenuItem.ToolTipText = "If checked hides sp effect entries with default values (as defined by sp effect 5" +
+    "020)";
+            this.hideDefaultSPEntriesToolStripMenuItem.Click += new System.EventHandler(this.HideDefaultSPEntriesToolStripMenuItem_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -563,6 +577,7 @@
         private System.Windows.Forms.ToolStripMenuItem exportToolStripMenuItem;
         private System.Windows.Forms.FolderBrowserDialog fbdExport;
         private System.Windows.Forms.ToolStripComboBox toolStripComboBoxGame;
+        private System.Windows.Forms.ToolStripMenuItem hideDefaultSPEntriesToolStripMenuItem;
     }
 }
 
