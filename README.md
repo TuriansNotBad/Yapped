@@ -1,4 +1,4 @@
-# Yapped
+# Yapped (sp hide, ds3 only)
 An editor for Dark Souls 3 and Sekiro param files, which determine the properties of items, attacks, effects, enemies, objects, and a whole lot more. For detailed instructions, please refer to the included readme.  
 Requires [.NET 4.7.2](https://www.microsoft.com/net/download/thank-you/net472) - Windows 10 users should already have this.  
 [Nexus Page](https://www.nexusmods.com/darksouls3/mods/298)  
